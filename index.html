@@ -63,12 +63,42 @@
             line-height: 20px;
             padding: 0 5px;
         }
+        .two-columns.last {
+            padding: 15px 0;
+        }
+        .two-columns .padding {
+            padding: 20px;
+        }
+        .two-columns .content {
+            font-size: 15px;
+            line-height: 20px;
+            text-align: left;
+        }
+        .button {
+            background-color: #ffffff;
+            color: black;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .button-dark {
+            background-color: darkmagenta;
+            color:#ffffff;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
 
     </style>
 </head>
+
 <body>
+
     <center class="wrapper">
         <table class="main" width="100%">
+
 <!-- TOP BORDER-->
             <tr>
                 <td height="8" style="background-color: green;"></td>
@@ -106,6 +136,7 @@
 
                 </td>
             </tr>
+
 <!-- BANNER IMAGE -->
         <tr>
             <td>
@@ -143,10 +174,12 @@
                 </table>
             </td>
         </tr>
+
 <!-- TWO COLUMN SECTION -->
         <tr>
             <td style="background-color: ponk;color: white;">
-                <table width="100">
+                <table width="100%">
+
                     <tr>
                         <td class="two-columns last">
                             <table class="column">
@@ -183,6 +216,43 @@
                 </table>
             </td>
         </tr>
+
+    <!-- TITLE, TEXT & BUTTON -->
+            <tr>
+                <td style="padding: 15px 0 50px;">
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center; padding: 15px;">
+                               <p style="font-size: 20px; font-weight:bold;">Email MarketingCourse Lorem </p> 
+                                <p style="line-height: 23px; font-size: 15px; padding:5px 0 15px;">Responsive email templates you can share</p>
+                            <a href="#" class="button-dark">View Course</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+    <!-- FOOTER SECTION -->
+
+            <tr>
+                <td style="background-color: black;">
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: center;padding: 45px 20px;color: #ffffff; ">
+                                <a href="#"><img src="img/testi.jpg" alt="" width="180"></a>
+                                <p style="padding: 18px;">Modern HTML EMail</p>
+                                <p style="padding: 18px;">123 Street Road, City, State 44444</p>
+                                <p style="padding: 18px;">Modern HTML EMail</p>
+                                <a href="#"><img src="img/testi.png" alt="" width="30"></a>
+                                <a href="#"><img src="img/testi.png" alt="" width="30"></a>
+                                <a href="#"><img src="img/testi.png" alt="" width="30"></a>
+                                <a href="#"><img src="img/testi.png" alt="" width="30"></a>
+                                <p style="padding: 10px;">SUBSCRIBE</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
 
 
         </table>
